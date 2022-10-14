@@ -144,6 +144,7 @@ img {
   height: 12px;
   margin-right: 10px;
   margin-left: auto;
+  fill: currentColor;
 }
 
 .contacts-icon-phone {
@@ -151,6 +152,7 @@ img {
   height: 16px;
   margin-right: 10px;
   margin-left: auto;
+  fill: currentColor;
 }
 
 /* Contacts */
@@ -166,7 +168,6 @@ img {
 .contacts-link:hover,
 .contacts-link:focus {
   color: var(--accent-color);
-  fill: var(--accent-color);
 }
 
 .hero-section {
@@ -238,7 +239,8 @@ img {
 
 .features-icon {
   display: flex;
-  padding: 25px 100px;
+  align-items: center;
+  justify-content: center;
   background-color: var(--secondary-background-color);
   width: 270px;
   height: 120px;
@@ -481,17 +483,14 @@ img {
   text-decoration: none;
 }
 
-.container.footer {
+.container.secondary {
   display: flex;
   align-items: baseline;
 }
 
 .container-social-links {
   margin-left: 70px;
-  margin-right: auto;
 }
-
-
 
 .footer-social-subtittle {
   color: var(--other-title-text-color);
@@ -500,7 +499,7 @@ img {
   text-transform: uppercase;
   line-height: 1.1;
   letter-spacing: 0.03em;
-  margin-bottom: 10px;
+  margin-bottom: 20px;
 }
 .footer-social-list {
   display: flex;
@@ -595,11 +594,11 @@ img {
   text-decoration: none;
 }
 
-.portfolio-section-box:hover,
-.portfolio-section-box:focus {
+.portfolio-section-link:hover,
+.portfolio-section-link:focus {
   color: var(--accent-color);
-  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
-    0px 2px 2px rgba(0, 0, 0, 0.12);
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
+    1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 
 .portfolio-section-list {
@@ -648,9 +647,3 @@ img {
   clip-path: inset(50%);
   margin: -1px;
 }
-
-
-
-
-
-
